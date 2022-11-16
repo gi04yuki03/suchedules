@@ -1,3 +1,12 @@
+* { 
+    margin: 0px; 
+    padding: 0px; 
+}
+
+body {
+  vertical-align: top;
+}
+
 .main h3{
    margin: 40px 15px 15px; 
    font-size: 30px;
@@ -17,6 +26,9 @@
    background-color: #7E0F09;
    color: #fff;
    padding: 20px 10px ;
+   position: absolute;
+   bottom: 0; 
+   left: 0;
  }
  
  table {
@@ -37,3 +49,15 @@ table,th,td{
    background-color: #ffe4e1;
    padding: 10px 20px;
  }
+ 
+ .notice {
+  background-color: #FADBDA;
+  margin-left: 15px;
+  padding: 15px 70px;
+  display: inline-block;
+}
+
+textarea{
+    width: 150px;
+    height: 100px;
+  }

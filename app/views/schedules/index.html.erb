@@ -27,8 +27,8 @@
        <tr>
          <td><%= schedule.id %></td>
          <td><%= schedule.title %></td>
-         <td><%= schedule.start %></td>
-         <td><%= schedule.end %></td>
+         <td><%= schedule.start.strftime('%Y年%m月%d日') %></td>
+         <td><%= schedule.end.strftime('%Y年%m月%d日') %></td>
          <td><%= schedule.allday ? '◯' : '' %></td>
          <td><%= schedule.updated_at.to_s(:datetime2_jp) %></td>
          <td><%= link_to "参照", schedule %></td>
